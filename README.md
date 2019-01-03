@@ -1,1 +1,1 @@
-# e-commerce-class
+# e-commerce-lab
