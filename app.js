@@ -11,56 +11,9 @@ let item7 = $('#item7');
 let item8 = $('#item8');
 let item9 = $('#item9');
 
-$('#addButton1').click(function(event) {
+$('.add-button').click(function(event) {
 	// console.log(event.target.parentElement)
 	 // $('.modal-body').append(item1)
 	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addButton2').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
-
-$('#addButton3').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
-
-$('#addButton4').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
-
-$('#addButton5').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
-
-$('#addButton6').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
-
-$('#addButton7').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
-
-$('#addButton8').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
-
-$('#addButton9').click(function(event) {
-	// console.log(event.target.parentElement)
-	 // $('.modal-body').append(item1)
-	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
-});
