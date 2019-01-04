@@ -11,39 +11,56 @@ let item7 = $('#item7');
 let item8 = $('#item8');
 let item9 = $('#item9');
 
-
-$('#addbutton1').click(function() {
-	 $('.modal-body').append(item1)	
+$('#addButton1').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton2').click(function() {
-	 $('.modal-body').append(item2)	
+$('#addButton2').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton3').click(function() {
-	 $('.modal-body').append(item3)	
+$('#addButton3').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton4').click(function() {
-	 $('.modal-body').append(item4)	
+$('#addButton4').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton5').click(function() {
-	 $('.modal-body').append(item5)	
+$('#addButton5').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton6').click(function() {
-	 $('.modal-body').append(item6)	
+$('#addButton6').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton7').click(function() {
-	 $('.modal-body').append(item7)	
+$('#addButton7').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton8').click(function() {
-	 $('.modal-body').append(item8)	
+$('#addButton8').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
 
-$('#addbutton9').click(function() {
-	 $('.modal-body').append(item9)	
+$('#addButton9').click(function(event) {
+	// console.log(event.target.parentElement)
+	 // $('.modal-body').append(item1)
+	 $('.modal-body').append(`<div>${event.target.parentElement}</div>`)	
 });
