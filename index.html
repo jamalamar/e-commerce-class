@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<title>E-Commerce</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
@@ -25,84 +26,108 @@
 		        <a class="nav-link" href="top.html">Top Items</a>
 		      </li>
 		    </ul>
-		    <a href="cart.html"><button type="button" class="btn btn-outline-success">Cart</button></a>
 
+		    <!-- Button trigger Cart Modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+			  Cart
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Shopping Cart</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">Checkout</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 		  </div>
 		</nav>
 
 
 		<!-- Items -->
 	<div class="items">	
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item1" style="width: 18rem;">
 		  <img src="./images/black.jpg" class="card-img-top" alt="...">	  
 		  	<div class="card-body">
 		    <h5 class="card-title">Item 1</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton1">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item2" style="width: 18rem;">
 		  <img src="images/g500_black_front..jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 2</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton2">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item3" style="width: 18rem;">
 		  <img src="images/jordan.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 3</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton3">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item4" style="width: 18rem;">
 		  <img src="images/odyssey.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 4</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton4">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item5" style="width: 18rem;">
 		  <img src="images/shoecoffe.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 5</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton5">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item6" style="width: 18rem;">
 		  <img src="images/white.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 6</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton6">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item7" style="width: 18rem;">
 		  <img src="images/pizza.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 7</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton7">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item8" style="width: 18rem;">
 		  <img src="images/hublot.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 8</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton8">Add to Cart</a>
 		  </div>
 		</div>
-		<div class="card" style="width: 18rem;">
+		<div class="card" id="item9" style="width: 18rem;">
 		  <img src="images/panerai.png" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Item 9</h5>
 		    <p class="card-text">This item is Amazing! Buy it now!</p>
-		    <a href="#" class="btn btn-outline-success">Add to Cart</a>
+		    <a href="#" class="btn btn-outline-success" id="addButton9">Add to Cart</a>
 		  </div>
 		</div>
 
@@ -111,8 +136,7 @@
 
 
 		<!--Source-->
-		<script type="text/javascript" href="app.js"></script>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="app.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	</body>
